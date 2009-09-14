@@ -45,7 +45,8 @@ has 'method_constructors' => (
         return +{
             map {
                 $_ => $method_provider->get_method($_)
-            } $method_provider->get_method_list
+            }
+            grep { $_ ne 'meta' } $method_provider->get_method_list
         };
     },
 );
