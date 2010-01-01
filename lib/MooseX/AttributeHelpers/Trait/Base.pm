@@ -51,11 +51,6 @@ has 'method_constructors' => (
     },
 );
 
-# extend the parents stuff to make sure
-# certain bits are now required ...
-has '+default'         => (required => 1);
-has '+type_constraint' => (required => 1);
-
 ## Methods called prior to instantiation
 
 sub process_options_for_provides {
