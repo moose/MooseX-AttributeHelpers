@@ -1,5 +1,6 @@
 Revision history for Perl extension MooseX-AttributeHelpers
 
+{{$NEXT}}
     - Don't rely on hash order in tests (RT#81564)
 
 0.23 Fri Jan 1, 2010

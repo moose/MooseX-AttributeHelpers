@@ -1,10 +1,6 @@
-MANIFEST
-MANIFEST.bak
-META.yml
-Makefile
-Makefile.old
-SIGNATURE
-blib/
-inc/
-pm_to_blib
-MooseX-AttributeHelpers-*
+/.ackrc
+/.build/
+!/.gitignore
+/.latest
+MooseX-AttributeHelpers-*/
+MooseX-AttributeHelpers-*.tar.gz
