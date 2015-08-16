@@ -1,7 +1,7 @@
 package MooseX::AttributeHelpers::Trait::Number;
 use Moose::Role;
 
-our $VERSION   = '0.24';
+our $VERSION = '0.25';
 
 with 'MooseX::AttributeHelpers::Trait::Base';
 

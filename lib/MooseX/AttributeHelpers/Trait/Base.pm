@@ -3,7 +3,7 @@ package MooseX::AttributeHelpers::Trait::Base;
 use Moose::Role;
 use Moose::Util::TypeConstraints;
 
-our $VERSION   = '0.24';
+our $VERSION = '0.25';
 
 requires 'helper_type';
 

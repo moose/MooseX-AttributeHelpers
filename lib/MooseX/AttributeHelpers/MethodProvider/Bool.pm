@@ -2,7 +2,7 @@
 package MooseX::AttributeHelpers::MethodProvider::Bool;
 use Moose::Role;
 
-our $VERSION   = '0.24';
+our $VERSION = '0.25';
 
 sub set : method {
     my ($attr, $reader, $writer) = @_;

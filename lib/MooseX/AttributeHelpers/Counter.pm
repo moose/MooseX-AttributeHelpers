@@ -2,7 +2,7 @@
 package MooseX::AttributeHelpers::Counter;
 use Moose;
 
-our $VERSION   = '0.24';
+our $VERSION = '0.25';
 
 extends 'Moose::Meta::Attribute';
 with 'MooseX::AttributeHelpers::Trait::Counter';

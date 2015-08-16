@@ -1,5 +1,7 @@
 Revision history for Perl extension MooseX-AttributeHelpers
 
+{{$NEXT}}
+
 0.24      2015-08-16 18:49:16Z
     - Don't rely on hash order in tests (RT#81564)
     - repository migrated to the GitHub Moose organization

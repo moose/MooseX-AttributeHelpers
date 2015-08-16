@@ -2,7 +2,7 @@
 package MooseX::AttributeHelpers::Meta::Method::Provided;
 use Moose;
 
-our $VERSION   = '0.24';
+our $VERSION = '0.25';
 
 extends 'Moose::Meta::Method';
 

@@ -2,7 +2,7 @@
 package MooseX::AttributeHelpers::Collection::Hash;
 use Moose;
 
-our $VERSION   = '0.24';
+our $VERSION = '0.25';
 
 extends 'Moose::Meta::Attribute';
 with 'MooseX::AttributeHelpers::Trait::Collection::Hash';

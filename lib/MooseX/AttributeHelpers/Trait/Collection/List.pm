@@ -2,7 +2,7 @@
 package MooseX::AttributeHelpers::Trait::Collection::List;
 use Moose::Role;
 
-our $VERSION   = '0.24';
+our $VERSION = '0.25';
 
 use MooseX::AttributeHelpers::MethodProvider::List;
 
