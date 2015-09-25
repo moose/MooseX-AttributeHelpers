@@ -1,4 +1,3 @@
-
 package MooseX::AttributeHelpers;
 
 our $VERSION = '0.25';

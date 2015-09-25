@@ -1,4 +1,3 @@
-
 package MooseX::AttributeHelpers::Trait::Counter;
 use Moose::Role;
 

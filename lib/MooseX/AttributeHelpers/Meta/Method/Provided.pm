@@ -1,4 +1,3 @@
-
 package MooseX::AttributeHelpers::Meta::Method::Provided;
 use Moose;
 

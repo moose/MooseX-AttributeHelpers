@@ -1,4 +1,3 @@
-
 package MooseX::AttributeHelpers::MethodProvider::Counter;
 use Moose::Role;
 

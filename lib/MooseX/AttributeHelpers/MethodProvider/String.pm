@@ -1,4 +1,3 @@
-
 package MooseX::AttributeHelpers::MethodProvider::String;
 use Moose::Role;
 

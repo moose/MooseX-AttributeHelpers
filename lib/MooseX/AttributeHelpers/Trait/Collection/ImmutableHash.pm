@@ -1,4 +1,3 @@
-
 package MooseX::AttributeHelpers::Trait::Collection::ImmutableHash;
 use Moose::Role;
 

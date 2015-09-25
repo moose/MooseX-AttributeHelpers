@@ -1,4 +1,3 @@
-
 package MooseX::AttributeHelpers::Trait::Collection::Bag;
 use Moose::Role;
 use Moose::Util::TypeConstraints;

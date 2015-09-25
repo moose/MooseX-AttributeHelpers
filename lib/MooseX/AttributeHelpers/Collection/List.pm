@@ -1,4 +1,3 @@
-
 package MooseX::AttributeHelpers::Collection::List;
 use Moose;
 

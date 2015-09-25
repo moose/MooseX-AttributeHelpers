@@ -1,4 +1,3 @@
-
 package MooseX::AttributeHelpers::String;
 use Moose;
 

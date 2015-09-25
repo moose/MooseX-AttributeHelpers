@@ -1,4 +1,3 @@
-
 package MooseX::AttributeHelpers::Collection::ImmutableHash;
 use Moose;
 

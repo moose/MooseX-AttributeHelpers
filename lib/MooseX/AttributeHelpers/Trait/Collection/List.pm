@@ -1,4 +1,3 @@
-
 package MooseX::AttributeHelpers::Trait::Collection::List;
 use Moose::Role;
 
