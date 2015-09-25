@@ -35,7 +35,7 @@ __END__
 
 =head1 NAME
 
-MooseX::AttributeHelpers - Extend your attribute interfaces (deprecated)
+MooseX::AttributeHelpers - (DEPRECATED) Extend your attribute interfaces
 
 =head1 SYNOPSIS
 
@@ -162,20 +162,12 @@ Common list methods for array references.
 
 =back
 
-=head1 CAVEAT
+=head1 DEPRECATION NOTICE
 
-This is an early release of this module. Right now it is in great need 
-of documentation and tests in the test suite. However, we have used this 
-module to great success at C<$work> where it has been tested very thoroughly
-and deployed into a major production site.
-
-I plan on getting better docs and tests in the next few releases, but until 
-then please refer to the few tests we do have and feel free email and/or 
-message me on irc.perl.org if you have any questions.
-
-=head1 TODO
-
-We need tests and docs badly.
+The functionality in this family of modules is now implemented in the L<Moose>
+core as L<Moose::Meta::Attribute::Native|native attribute traits>.  No more
+development is being done on MooseX::AttributeHelpers, so we encourage you to
+switch to native attribute traits.
 
 =head1 BUGS
 
