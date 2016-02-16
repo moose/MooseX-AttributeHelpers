@@ -1,4 +1,6 @@
 package MooseX::AttributeHelpers::Trait::Base;
+# ABSTRACT: base role for helpers
+
 use Moose::Role;
 use Moose::Util::TypeConstraints;
 
@@ -220,9 +222,7 @@ no Moose::Util::TypeConstraints;
 
 __END__
 
-=head1 NAME
-
-MooseX::AttributeHelpers::Trait::Base - base role for helpers
+=pod
 
 =head1 METHODS
 
@@ -234,12 +234,6 @@ Confirms that provides (and curries) has all valid possibilities in it.
 
 Ensures that the type constraint (C<isa>) matches the helper type.
 
-=head1 BUGS
-
-All complex software has bugs lurking in it, and this module is no 
-exception. If you find a bug please either email me, or add the bug
-to cpan-RT.
-
 =head1 AUTHORS
 
 Yuval Kogman
@@ -247,14 +241,5 @@ Yuval Kogman
 Shawn M Moore
 
 Jesse Luehrs
-
-=head1 COPYRIGHT AND LICENSE
-
-Copyright 2007-2009 by Infinity Interactive, Inc.
-
-L<http://www.iinteractive.com>
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
 
 =cut

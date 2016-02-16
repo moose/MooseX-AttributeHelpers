@@ -1,4 +1,5 @@
 package MooseX::AttributeHelpers;
+# ABSTRACT: (DEPRECATED) Extend your attribute interfaces
 
 our $VERSION = '0.25';
 
@@ -32,10 +33,6 @@ use MooseX::AttributeHelpers::Collection::Bag;
 __END__
 
 =pod
-
-=head1 NAME
-
-MooseX::AttributeHelpers - (DEPRECATED) Extend your attribute interfaces
 
 =head1 SYNOPSIS
 
@@ -168,50 +165,5 @@ The functionality in this family of modules is now implemented in the L<Moose>
 core as L<Moose::Meta::Attribute::Native|native attribute traits>.  No more
 development is being done on MooseX::AttributeHelpers, so we encourage you to
 switch to native attribute traits.
-
-=head1 BUGS
-
-All complex software has bugs lurking in it, and this module is no 
-exception. If you find a bug please either email me, or add the bug
-to cpan-RT.
-
-=head1 AUTHOR
-
-Stevan Little E<lt>stevan@iinteractive.comE<gt>
-
-B<with contributions from:>
-
-Robert (rlb3) Boone
-
-Paul (frodwith) Driver
-
-Shawn (Sartak) Moore
-
-Chris (perigrin) Prather
-
-Robert (phaylon) Sedlacek
-
-Tom (dec) Lanyon
-
-Yuval Kogman
-
-Jason May
-
-Cory (gphat) Watson
-
-Florian (rafl) Ragwitz
-
-Evan Carroll
-
-Jesse (doy) Luehrs
-
-=head1 COPYRIGHT AND LICENSE
-
-Copyright 2007-2009 by Infinity Interactive, Inc.
-
-L<http://www.iinteractive.com>
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
 
 =cut
