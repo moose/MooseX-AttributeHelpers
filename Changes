@@ -1,6 +1,6 @@
 Revision history for Perl extension MooseX-AttributeHelpers
 
-{{$NEXT}}
+0.25      2016-02-16 05:27:31Z
     - stronger deprecation notice in pod
 
 0.24      2015-08-16 18:49:16Z
