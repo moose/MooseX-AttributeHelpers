@@ -2,7 +2,7 @@ package MooseX::AttributeHelpers::Trait::Bool;
 use Moose::Role;
 use MooseX::AttributeHelpers::MethodProvider::Bool;
 
-our $VERSION = '0.25';
+our $VERSION = '0.26';
 
 with 'MooseX::AttributeHelpers::Trait::Base';
 

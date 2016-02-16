@@ -1,7 +1,7 @@
 package MooseX::AttributeHelpers::MethodProvider::ImmutableHash;
 use Moose::Role;
 
-our $VERSION = '0.25';
+our $VERSION = '0.26';
 
 sub exists : method {
     my ($attr, $reader, $writer) = @_;

@@ -1,7 +1,7 @@
 package MooseX::AttributeHelpers;
 # ABSTRACT: (DEPRECATED) Extend your attribute interfaces
 
-our $VERSION = '0.25';
+our $VERSION = '0.26';
 
 use Moose 0.56 ();
 

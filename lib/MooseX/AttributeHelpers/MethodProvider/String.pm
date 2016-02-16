@@ -1,7 +1,7 @@
 package MooseX::AttributeHelpers::MethodProvider::String;
 use Moose::Role;
 
-our $VERSION = '0.25';
+our $VERSION = '0.26';
 
 sub append : method {
     my ($attr, $reader, $writer) = @_;

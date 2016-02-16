@@ -2,7 +2,7 @@ package MooseX::AttributeHelpers::Trait::Collection::Bag;
 use Moose::Role;
 use Moose::Util::TypeConstraints;
 
-our $VERSION = '0.25';
+our $VERSION = '0.26';
 
 use MooseX::AttributeHelpers::MethodProvider::Bag;
 

@@ -2,7 +2,7 @@ package MooseX::AttributeHelpers::Trait::Collection;
 # ABSTRACT: Base class for all collection type helpers
 use Moose::Role;
 
-our $VERSION = '0.25';
+our $VERSION = '0.26';
 
 with 'MooseX::AttributeHelpers::Trait::Base';
 

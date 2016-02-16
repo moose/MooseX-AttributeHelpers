@@ -1,7 +1,7 @@
 package MooseX::AttributeHelpers::Trait::Collection::Hash;
 use Moose::Role;
 
-our $VERSION = '0.25';
+our $VERSION = '0.26';
 
 use MooseX::AttributeHelpers::MethodProvider::Hash;
 
